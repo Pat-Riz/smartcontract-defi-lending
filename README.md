@@ -1,4 +1,49 @@
-# Boilerplate for ethereum solidity smart contract development
+# Defi-lending-smartcontract
+
+Frontend dApp in react that allows you to lend tokens from a Solidity smart contract.
+NOTICE: The repo currently is not working properly. There is a issue with the staking logic so tests fails. But this project is put on hold for now.
+
+### Installing
+
+```
+yarn install
+cd Frontend
+yarn install
+```
+
+## Running the tests
+
+yarn test
+
+## Commands
+
+- See bottom of ReadMe for original boilerplate readme with details of all commands
+
+## Built With
+
+- [React](https://reactjs.org/docs/getting-started.html) - The web framework used
+- [Solidity](https://docs.soliditylang.org/en/v0.8.15/) - Programming language of ethereum blockchain
+- [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started) - Ethereum development enviorment
+- [Hardhat-deploy](https://github.com/wighawag/hardhat-deploy) - Hardhat plugin to easier deploy contracts on any network. Both for production and test
+
+## Roadmap
+
+- [ ] Fix so the tests for Staking works
+- [ ] Create a simple frontend dApp to call our Smartcontract with the web3 interface
+
+See the [open issues](https://github.com/Pat-Riz/readme-template/issues) for a full list of proposed features (and known issues).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Acknowledgments
+
+- wighawag for awesome boilterplate for ethereum development [wighawag](https://github.com/wighawag)
+
+# Original Readme
+
+## Boilerplate for ethereum solidity smart contract development
 
 ## INSTALL
 

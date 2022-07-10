@@ -20,11 +20,20 @@ const config: HardhatUserConfig = {
           },
         },
       },
+      {
+        version: '0.6.0',
+        settings: {
+          optimizer: {
+            enabled: true,
+            runs: 2000,
+          },
+        },
+      },
     ],
   },
   namedAccounts: {
     deployer: 0,
-    simpleERC20Beneficiary: 1,
+    nonOwner: 1,
   },
   networks: addForkConfiguration({
     hardhat: {
