@@ -3,6 +3,10 @@
 Frontend dApp in react that allows you to lend tokens from a Solidity smart contract.
 NOTICE: The repo currently is not working properly. There is a issue with the staking logic so tests fails. But this project is put on hold for now.
 
+### Prerequisites
+
+solc - Solidity compiler
+
 ### Installing
 
 ```
